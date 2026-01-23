@@ -64,7 +64,7 @@
 
 import express from "express";
 import Todo from "../models/Todo.js";
-import authMiddleware from "../middleware/auth.js";
+import authMiddleware from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 
